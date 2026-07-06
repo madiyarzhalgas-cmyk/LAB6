@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madiyar's Portfolio</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#hero">Madiyar's Portfolio</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto gap-md-2">
+                        <li class="nav-item"><a class="nav-link" href="#hero">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#knowledge">Knowledge</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Web Design</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4 bg-white p-4 rounded main-box">
+
+        <section id="hero" class="py-4">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-md-7">
+                    <h1 class="mb-3">Madiyar's Portfolio</h1>
+                    <h2>About Me</h2>
+                    <h3>Hello!</h3>
+                    <p>
+                        My name is <strong>Madiyar</strong>. I am a student and this is my personal portfolio website.
+                    </p>
+                    <p>
+                        This portfolio shows my knowledge and my web design skills with HTML, CSS and Bootstrap.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-5 text-center">
+                    <img src="Madiyar.jpg" alt="My photo" class="img-fluid hero-photo">
+                </div>
+            </div>
+        </section>
+
+        <section id="knowledge" class="py-4">
+            <h2>My Knowledge</h2>
+
+            <div class="box mt-3">
+                <h3>Programming Basics</h3>
+                <ul class="mb-0">
+                    <li>Basic knowledge of Java</li>
+                    <li>Basic knowledge of Python</li>
+                </ul>
+            </div>
+
+            <p>
+                I am learning programming and improving my skills step by step.
+                I want to understand how websites and programs work.
+            </p>
+        </section>
+
+        <section id="skills" class="py-4">
+            <h2>My Web Design Skills</h2>
+
+            <p>
+                I can create simple and clean web pages. I can organize content, style elements and make a website responsive for different screen sizes.
+            </p>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 mt-2">
+                <div class="col">
+                    <div class="box skill-box h-100">
+                        <h3 class="h5">HTML Structure</h3>
+                        <p class="mb-0">I can create sections, headings, paragraphs, lists, links and images.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box skill-box h-100">
+                        <h3 class="h5">CSS Styling</h3>
+                        <p class="mb-0">I can change colors, spacing, borders, backgrounds and text styles.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box skill-box h-100">
+                        <h3 class="h5">Bootstrap</h3>
+                        <p class="mb-0">I can use Bootstrap containers, rows, columns, navbar, cards and forms.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box skill-box h-100">
+                        <h3 class="h5">Responsive Design</h3>
+                        <p class="mb-0">I can make layouts work on phones, tablets and desktop screens.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box skill-box h-100">
+                        <h3 class="h5">Flexbox</h3>
+                        <p class="mb-0">I can align links and content neatly using flex utilities.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box skill-box h-100">
+                        <h3 class="h5">Forms</h3>
+                        <p class="mb-0">I can create a simple contact form with labels, inputs and a button.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-4">
+            <h2>Contacts</h2>
+
+            <p>
+                Phone:
+                <a href="tel:+77084321979">+7 708 432 19 79</a>
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:madiyar.zhalgas@narxoz.kz">madiyar.zhalgas@narxoz.kz</a>
+            </p>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form id="contact" method="POST" action="#" enctype="application/x-www-form-urlencoded" novalidate>
+<div class="mb-3"><label for="name" class="form-label">Full Name</label><input type="text" class="form-control" id="name" name="name" required minlength="2" aria-required="true" aria-describedby="name-hint name-error"><div id="name-hint" class="form-text">At least 2 characters.</div><span id="name-error" class="error-message" role="alert" hidden>Please enter your name.</span></div>
+<div class="mb-3"><label for="email" class="form-label">Email</label><input type="email" class="form-control" id="email" name="email" required aria-required="true" aria-describedby="email-hint email-error"><div id="email-hint" class="form-text">We'll never share your email.</div><span id="email-error" class="error-message" role="alert" hidden>Please enter a valid email.</span></div>
+<div class="mb-3"><label for="subject" class="form-label">Subject</label><input type="text" class="form-control" id="subject" name="subject" required maxlength="120"><span id="subject-error" class="error-message" role="alert" hidden>Subject is required.</span></div>
+<div class="mb-3"><label for="message" class="form-label">Message</label><textarea id="message" name="message" class="form-control" rows="5" required minlength="10" maxlength="1000"></textarea><span id="message-error" class="error-message" role="alert" hidden>Message must contain at least 10 characters.</span></div>
+<button class="btn btn-dark w-100" type="submit">Send Message</button></form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p class="mb-0">&copy; 2026 Madiyar's Portfolio</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+const form=document.getElementById('contact');
+form.addEventListener('submit',e=>{e.preventDefault();clearErrors();if(form.checkValidity()){alert('Message sent successfully!');form.reset();}else showErrors();});
+function showErrors(){form.querySelectorAll(':invalid').forEach(el=>{el.setAttribute('aria-invalid','true');const er=document.getElementById(el.id+'-error');if(er)er.hidden=false;});}
+function clearErrors(){form.querySelectorAll('[aria-invalid]').forEach(el=>{el.removeAttribute('aria-invalid');const er=document.getElementById(el.id+'-error');if(er)er.hidden=true;});}
+</script>
+
+</body>
+</html>

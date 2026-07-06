@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    line-height: 1.6;
+}
+
+.main-box {
+    box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-brand,
+.nav-link {
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #444;
+    border-radius: 0.3rem;
+}
+
+.box {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-left: 0.25rem solid #444;
+    border-radius: 0.3rem;
+}
+
+.hero-photo {
+    width: 15.6rem;
+    height: 15.6rem;
+    object-fit: cover;
+    border-radius: 0.6rem;
+}
+
+
+
+.skill-box {
+    min-height: 100%;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    color: #004080;
+    text-decoration: none;
+}
+
+.btn-dark:hover {
+    background-color: #0066cc;
+    border-color: #0066cc;
+}
+
+.form-control:not(:focus):invalid{border-color:#EF4444;}
+.form-control:valid{border-color:#16A34A;}
+.error-message{color:#EF4444;font-size:.85rem;}
